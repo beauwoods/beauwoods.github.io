@@ -1,0 +1,67 @@
+# Site
+repository: beauwoods/beauwoods.github.io
+# favicon: images/favicon.ico
+
+# Personal info
+name: Beau Woods
+title: Cyber Policy Ambassador/Translator
+# email: brett.h@email.co.uk
+website: beauwoods.com
+
+# Social links
+twitter_username: beauwoods
+github_username:  beauwoods
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: beauwoods
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+orcid_username: 0000-0001-6109-1434
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+gtm: "GTM-56D6KN8"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  reformed technologist - doing what i love, loving what i do
+
+  Working toward a more technically literate cyber policy, with [I Am The Cavalry](https://iamthecavalry.org) and the [Atlantic Council](https://www.atlanticcouncil.org/expert/beau-woods/), among others.
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+# more_content: | # this will include new lines to allow paragraphs
+#  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#   - Rock climbing
+#   - Gaming
+#   - Knitting
+#   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: beauwoods/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

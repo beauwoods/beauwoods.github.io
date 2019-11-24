@@ -1,0 +1,8 @@
+- layout: left
+  name: Georgia Institute of Technology
+  dates: 2004
+  qualification: BSc Psychology
+  quote: >
+    Specialization in <em>Industrial and Organizational</em> psychology.
+  description: | # this will include new lines to allow paragraphs
+    The Georgia Institute of Technology is a leading research university committed to improving the human condition through advanced science and technology. Also known as Georgia Tech, is a top-ranked public college and one of the leading research universities in the USA. Georgia Tech provides a technologically focused education to more than 25,000 undergraduate and graduate students in fields ranging from engineering, computing, and sciences, to business, design, and liberal arts.

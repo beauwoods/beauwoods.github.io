@@ -29,14 +29,23 @@
   quote: >
     Bridge the gap between the hacker and cyber policy communities.
   description: | # this will include new lines to allow paragraphs
-    Our dependance on computer technology is increasing faster than our ability to safeguard ourselves, in areas impacting human life, public safety, and (inter)national and economic security. *Where bits and bytes meet flesh and blood.*
+    Dependance on connected technology is increasing faster than our ability to safeguard ourselves, in areas impacting human life, public safety, and (inter)national and economic security. *Where bits and bytes meet flesh and blood.* I Am The Cavalry is a global grassroots organization, working to ensure that connected technologies are worthy of the trust we place in them. Focused on healthcare, transportation, public infrastructure, and home IoT. Safer, sooner, together.
 
-    I Am The Cavalry is a global grassroots organization, working to ensure that connected technologies are worthy of the trust we place in them. Focused on healthcare, transportation, public infrastructure, and home IoT. Safer, sooner, together.
+- layout: left
+  company: US Food and Drug Administration
+  link: https://fda.gov
+  job_title: Entrepreneur in Residence
+  dates: February 2018 - January 2019
+  quote: >
+    Served a one-year term, working on the <a href="https://www.fda.gov/medical-devices/digital-health/digital-health-software-precertification-pre-cert-program">Precertification Program</a>.
+  description: | # this will include new lines to allow paragraphs
+    The Food and Drug Administration is responsible for protecting the public health by ensuring the safety, efficacy, and security of human and veterinary drugs, biological products, and medical devices; and by ensuring the safety of our nation's food supply, cosmetics, and products that emit radiation. FDA is responsible for advancing the public health by helping to speed innovations that make medical products more effective, safer, and more affordable and by helping the public get the accurate, science-based information they need to use medical products and foods to maintain and improve their health.
 
 - layout: left
   company: BSides Las Vegas
   link: bsideslv.org
   job_title: Staff
+  dates: August 2014 - Present
   quote: >
     Lead the <b>I Am The Cavalry</b> and <b>Public Ground</b> tracks.
   description: | # this will include new lines to allow paragraphs
@@ -48,7 +57,7 @@
   job_title: Board Member/Device Lab Lead
   dates: August 2017 - Present
   quote: >
-    Serve as board secretary, run the Device Lab, and co-host the White Hats and Lab Coats podcast.
+    Serve as board secretary, run the Device Lab, develop the Biohacking Village community, and co-host the White Hats and Lab Coats podcast.
   description: | # this will include new lines to allow paragraphs
     The non-profit Biohacking Village celebrating health ingenuity from DIYBio, Citizen Science, and medical device security. We bring together members of the diverse healthcare, security research, and biohacking communities in a high-trust, high-collaboration environment. Our 2019 DEF CON village saw over 10,000 participants pass through our doors. Our Device Lab featured a fully immersive hospital environment, designed by Cal Poly, a Capture the Flag, run by the Mayo Clinic, and around 10 medical device makers bringing nearly 40 devices for particiants to test for potential cyber safety issues. We hold events throughout the year, including at [DEF CON](https://defcon.org) and the [RSA Conference](https://rsaconference.com).
 
@@ -58,7 +67,7 @@
   job_title: Founding Member
   dates: January 2018 - Present
   quote: >
-    Advise on strategy, plan events, and develop the community.
+    Advise on strategy, assist in planning events, and develop the ICS Village community.
   description: | # this will include new lines to allow paragraphs
     The non-profit ICS Village equips industry and policymakers to better defend industrial equipment through experiential awareness, education, and training. High profile Industrial Controls systems Security issues have grabbed headlines and sparked changes throughout the global supply chain. The ICS Village allows defenders of any experience level to understand unique failure modes of these systems and how to better prepare and respond to the changing threat landscape, using interactive simulated ICS environments to preserve safe, secure, and reliable operations. The ICS Village brings a compelling experience for all experience levels and types, with IT and industrial equipment. We hold events throughout the year, including at [DEF CON](https://defcon.org), the [RSA Conference](https://rsaconference.com), and [Hack the Capitol](https://hackthecapitol.org).
 
@@ -68,6 +77,6 @@
   job_title: Co-Founder/Board Member
   dates: January 2019 - Present
   quote: >
-    Advise on strategy, plan events, and develop the community.
+    Serve as board treasurer, advise on strategy, assist in planning events, and develop the Aerospace Village community.
   description: | # this will include new lines to allow paragraphs
     The non-profit Aerospace Village collaborates with aerospace stakeholders in the aerospace industry, security research commmunity, and the public toward a common goal: **safe, reliable, and trustworthy air travel**. For too long, negative perceptions and fractured trust on all sides have held back collaboration between the aerospace and security researcher communities that has advanced safety, reliability, and security of other industries. As the traditional domains of aerospace safety and cybersecurity increasingly overlap, we will be safer, sooner, together. The Aerospace Village welcomes those who seek to improve aviation security, safety, and resilience through positive, productive collaboration among all ecosystem stakeholders. We hold events throughout the year, including at [DEF CON](https://defcon.org) and the [RSA Conference](https://rsaconference.com).

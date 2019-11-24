@@ -6,4 +6,5 @@ _site
 *.code-workspace
 vendor
 docker-compose*
+.dockerignore
 .DS_Store

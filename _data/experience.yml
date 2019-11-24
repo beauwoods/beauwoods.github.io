@@ -12,10 +12,10 @@
   company: Atlantic Council
   link: atlanticcouncil.org
   jobs:
-    - title: Deputy Director, Cyber Satecraft Initiative
-      dates: January 2016 - August 2017
     - title: Cyber Safety Innovation Fellow
       dates: August 2017 - Present
+    - title: Deputy Director, Cyber Satecraft Initiative
+      dates: January 2016 - August 2017
   quote: >
    Inform industry and public policy about the most urgent cyber security issues impacting our world.
   description: | # this will include new lines to allow paragraphs
@@ -33,7 +33,7 @@
 
 - layout: left
   company: US Food and Drug Administration
-  link: https://fda.gov
+  link: fda.gov
   job_title: Entrepreneur in Residence
   dates: February 2018 - January 2019
   quote: >

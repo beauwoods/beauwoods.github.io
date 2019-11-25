@@ -1,7 +1,4 @@
 # Site sections
-- title: About
-  file: about.html
-
 - title: Experience
   file: experience.html
 

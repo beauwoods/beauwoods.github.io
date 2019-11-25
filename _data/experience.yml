@@ -6,14 +6,6 @@
   description: | # this will include new lines to allow paragraphs
     Stratigos Security was founded to promote strategic and holistic approaches to security for our clients. This means taking a broad view across the organization, and in the long view, to see how and where security fits into their broader context. That is different than how many information security programs are run – compartmentalized internally and isolated from the organization's value drivers. Our clients range from Fortune 100 to small local organizations, and span the globe.
 
-- organization: Atlantic Council
-  link: https://atlanticcouncil.org
-  job_title: Deputy Director, Cyber Satecraft Initiative/Cyber Safety Innovation Fellow
-  dates: January 2016 - Present
-  role_brief: Inform industry and public policy about the most urgent cyber security issues impacting our world.
-  description: | # this will include new lines to allow paragraphs
-    The Atlantic Council promotes constructive leadership and engagement in international affairs based on the Atlantic Community’s central role in meeting global challenges. The Council provides an essential forum for navigating the dramatic economic and political changes defining the twenty-first century by informing and galvanizing its uniquely influential network of global leaders. Through the papers we write, the ideas we generate, and the communities we build, the Council shapes policy choices and strategies to create a more secure and prosperous world.
-
 - organization: I Am The Cavalry
   link: https://iamthecavalry.org
   job_title: Cyber Safety Ambassador
@@ -22,14 +14,6 @@
   description: | # this will include new lines to allow paragraphs
     Dependance on connected technology is increasing faster than our ability to safeguard ourselves, in areas impacting human life, public safety, and (inter)national and economic security. *Where bits and bytes meet flesh and blood.* I Am The Cavalry is a global grassroots organization, working to ensure that connected technologies are worthy of the trust we place in them. Focused on healthcare, transportation, public infrastructure, and home IoT. Safer, sooner, together.
 
-- organization: US Food and Drug Administration
-  link: https://fda.gov
-  job_title: Entrepreneur in Residence
-  dates: February 2018 - January 2019
-  role_brief: Served a one-year term, working on the [Precertification Program](https://www.fda.gov/medical-devices/digital-health/digital-health-software-precertification-pre-cert-program).
-  description: | # this will include new lines to allow paragraphs
-    The Food and Drug Administration is responsible for protecting the public health by ensuring the safety, efficacy, and security of human and veterinary drugs, biological products, and medical devices; and by ensuring the safety of our nation's food supply, cosmetics, and products that emit radiation. FDA is responsible for advancing the public health by helping to speed innovations that make medical products more effective, safer, and more affordable and by helping the public get the accurate, science-based information they need to use medical products and foods to maintain and improve their health.
-
 - organization: BSides Las Vegas
   link: https://bsideslv.org
   job_title: Staff
@@ -37,6 +21,14 @@
   role_brief: Lead the <b>I Am The Cavalry</b> and <b>Public Ground</b> tracks.
   description: | # this will include new lines to allow paragraphs
     BSides Las Vegas is a nonprofit organization formed to stimulate the Information Security industry and community by providing an annual, two-day conference for security practitioners and those interested in (or looking to) enter the field. Our event is a source of education, communication, and collaboration. The technical and academic presentations at BSidesLV are given in the spirit of peer review and for the dissemination of knowledge among all specialties. This allows the field of Information Security to grow and continue its pursuit of a world where privacy and security are attainable.
+
+- organization: Atlantic Council
+  link: https://atlanticcouncil.org
+  job_title: Deputy Director, Cyber Satecraft Initiative/Cyber Safety Innovation Fellow
+  dates: January 2016 - Present
+  role_brief: Inform industry and public policy about the most urgent cyber security issues impacting our world.
+  description: | # this will include new lines to allow paragraphs
+    The Atlantic Council promotes constructive leadership and engagement in international affairs based on the Atlantic Community’s central role in meeting global challenges. The Council provides an essential forum for navigating the dramatic economic and political changes defining the twenty-first century by informing and galvanizing its uniquely influential network of global leaders. Through the papers we write, the ideas we generate, and the communities we build, the Council shapes policy choices and strategies to create a more secure and prosperous world.
 
 - organization: Biohacking Village
   link: https://villageb.io
@@ -61,3 +53,27 @@
   role_brief: Serve as board treasurer, advise on strategy, assist in planning events, and develop the Aerospace Village community.
   description: | # this will include new lines to allow paragraphs
     The non-profit Aerospace Village collaborates with aerospace stakeholders in the aerospace industry, security research commmunity, and the public toward a common goal: **safe, reliable, and trustworthy air travel**. For too long, negative perceptions and fractured trust on all sides have held back collaboration between the aerospace and security researcher communities that has advanced safety, reliability, and security of other industries. As the traditional domains of aerospace safety and cybersecurity increasingly overlap, we will be safer, sooner, together. The Aerospace Village welcomes those who seek to improve aviation security, safety, and resilience through positive, productive collaboration among all ecosystem stakeholders. We hold events throughout the year, including at [DEF CON](https://defcon.org) and the [RSA Conference](https://rsaconference.com).
+
+- organization: Elektra Labs
+  link: https://elektralabs.com
+  job_title: Advisory Board Member
+  dates: September 2019 - Present
+  role_brief: Advise management on cybersecurity issues and help develop cybersecurity capabilities.
+  description: | # this will include new lines to allow paragraphs
+    Elektra is a healthcare security company focused on safe, effective, personalized adoption of medicine. They work with pharma and device companies to reduce cost and time to market during clinical trials, and work with care providers to make remote monitoring easier and better.
+
+- organization: US Food and Drug Administration
+  link: https://fda.gov
+  job_title: Entrepreneur in Residence
+  dates: February 2018 - January 2019
+  role_brief: Served a one-year term, working on the [Precertification Program](https://www.fda.gov/medical-devices/digital-health/digital-health-software-precertification-pre-cert-program).
+  description: | # this will include new lines to allow paragraphs
+    The Food and Drug Administration is responsible for protecting the public health by ensuring the safety, efficacy, and security of human and veterinary drugs, biological products, and medical devices; and by ensuring the safety of our nation's food supply, cosmetics, and products that emit radiation. FDA is responsible for advancing the public health by helping to speed innovations that make medical products more effective, safer, and more affordable and by helping the public get the accurate, science-based information they need to use medical products and foods to maintain and improve their health.
+
+- organization: Secureworks
+  link: https://secureworks.com
+  job_title: Managing Principal Consultant/Solutions Architect
+  dates: September 2007 - April 2012
+  role_brief: Deliver high quality services to clients, design and develop new consulting services, and advise management on business operations.
+  description: | # this will include new lines to allow paragraphs
+    One of the oldest and largest pure-play information security companies, with over 4,000 customers in 55+ countries, Secureworks provides managed security services through a 24/7 Security Operations Center, security intelligence services through the Counter Threat Unit (CTU)™, and security and risk consulting services.

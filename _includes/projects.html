@@ -1,0 +1,19 @@
+<div class="w-100">
+  <h2 class="mb-5">Projects</h2>
+
+  {% for projects in site.data.projects %}
+
+    <div class="row clearfix layout layout-left mb-3">
+      <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+        {% if {{projects.link}} %} <a href="{{projects.link}}"> {% endif %}
+        {% if {{projects.name}} %} <h3 class="mb-0">{{projects.name}}</h3> {% endif %}
+        {% if {{projects.link}} %} </a> {% endif %}
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+        {% if {{projects.description}} %} {{projects.description | strip | markdownify}} {% endif %}
+      </div>
+    </div>
+
+{% endfor %}
+
+</div>

@@ -1,45 +1,23 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+<html lang="en">
 
 {%- include head.html -%}
 
-<body>
+<body id="page-top">
 
-  {%- include header.html -%}
+  {%- include nav.html -%}
 
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
+  <div class="container-fluid p-0">
 
-      {%- if jekyll.environment == 'production' and site.gtm -%}
-        {%- include gtm_body.html -%}
-      {%- endif -%}
+    {% for section in site.data.sitelist %}
+      <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="{{section.title}}">
+        {%- include {{section.file}} -%}
+      </section>
+    {% endfor %}
 
-      {%- include about.html -%}
+  </div>
 
-      {%- if site.data.projects.size > 0 -%}
-        {%- include projects.html -%}
-      {%- endif -%}
-
-      {%- if site.data.experience.size > 0 -%}
-        {%- include experience.html -%}
-      {%- endif -%}
-
-      {%- if site.data.education.size > 0 -%}
-        {%- include education.html -%}
-      {%- endif -%}
-
-      {%- if site.more_content -%}
-        {%- include more.html -%}
-      {%- endif -%}
-
-      {%- if site.data.publications.size > 0 -%}
-        {%- include publications.html -%}
-      {%- endif -%}
-
-    </div>
-  </main>
-
-  {%- include footer.html -%}
+{%- include footer.html -%}
 
 </body>
 

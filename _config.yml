@@ -9,19 +9,29 @@ title: Cyber Policy Ambassador/Translator
 # phone: Your phone number (optional)
 website: beauwoods.com
 
-# Social links
-twitter_username: beauwoods
-github_username:  beauwoods
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
-linkedin_username: beauwoods
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
-orcid_username: 0000-0001-6109-1434
+# Select your active Social Network Links.
+# Uncomment the links you want to show in the footer and add your information to each link.
+# You can reorder the items to define the link order.
+# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
+social-network-links:
+#  rss: true
+#  email: "someone@example.com"
+#  facebook: deanattali
+ github: beauwoods
+ twitter: beauwoods
+ reddit: beauwoods
+ linkedin: beauwoods
+#  xing: yourname
+#  stackoverflow: "3943160/daattali"
+#  snapchat: deanat78
+#  instagram: deanat78
+#  youtube: user/deanat78
+#  spotify: yourname
+#  telephone: +14159998888
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
+ orcid: 0000-0001-6109-1434
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -29,40 +39,11 @@ gtm: "GTM-56D6KN8"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  reformed technologist - doing what i love, loving what i do
-
-  Working toward a more technically literate cyber policy, with [I Am The Cavalry](https://iamthecavalry.org) and the [Atlantic Council](https://www.atlanticcouncil.org/expert/beau-woods/), among others.
-
-# Projects Section
-# projects_title: Projects
-
-# Experience Section
-# experience_title: Experience
-
-# Education Section
-# educaton_title: Education
-
-# More Section
-# more_title: A Little More About Me
-# more_content: | # this will include new lines to allow paragraphs
-#  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-#   - Rock climbing
-#   - Gaming
-#   - Knitting
-#   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-# Publications Section
-# publications_title: Publications
-
 # Footer
 footer_show_references: true
 
 # Build settings
-remote_theme: beauwoods/modern-resume-theme@scrolling-theme
+remote_theme: beauwoods/modern-resume-theme
 
 sass:
   sass_dir: _sass

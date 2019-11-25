@@ -1,11 +1,12 @@
 # Site
 repository: beauwoods/beauwoods.github.io
-# favicon: images/favicon.ico
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
 name: Beau Woods
 title: Cyber Policy Ambassador/Translator
-# email: brett.h@email.co.uk
+# email: Your email (optional)
+# phone: Your phone number (optional)
 website: beauwoods.com
 
 # Social links
@@ -16,6 +17,7 @@ github_username:  beauwoods
 # flickr_username: jekyll
 # instagram_username: jekyll
 linkedin_username: beauwoods
+# xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
 # googleplus_username: +jekyll
@@ -68,3 +70,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]

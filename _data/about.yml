@@ -1,0 +1,9 @@
+# Limited to one entry.
+- about:
+  firstname: Beau
+  lastname: Woods
+  profile_image: images/profile.jpg
+  description: |  # this will include new lines to allow paragraphs, as long as the following lines are indented properly
+    Reformed technologist. Doing what i love, loving what i do.
+
+    Working toward a more technically literate cyber policy, with [I Am The Cavalry](https://iamthecavalry.org) and the [Atlantic Council](https://www.atlanticcouncil.org/expert/beau-woods/), among others.

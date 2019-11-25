@@ -1,0 +1,12 @@
+{% assign person = site.data.about[0] %}
+
+<div class="w-100">
+  <h1 class="mb-0">{{person.firstname}}
+    <span class="text-primary">{{person.lastname}}</span>
+  </h1>
+
+  <p class="lead mb-5">{{person.description | strip | markdownify}}</p>
+
+  {%- include socialnetworks.html -%}
+
+</div>

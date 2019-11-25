@@ -1,0 +1,9 @@
+# Site sections
+- title: Experience
+  file: experience.html
+
+- title: Projects
+  file: projects.html
+
+- title: Publications
+  file: publications.html

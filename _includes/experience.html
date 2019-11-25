@@ -1,0 +1,21 @@
+  {% for experience in site.data.experience %}
+
+    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="resume-content">
+        {% if {{experience.link}} %} <a href="{{experience.link}}"> {% endif %}
+        {% if {{experience.organization}} %} <h3 class="mb-0">{{experience.organization}}</h3> {% endif %}
+        {% if {{experience.link}} %} </a> {% endif %}
+        {% if {{experience.job_title}} %} <div class="subheading mb-0">{{experience.job_title}}</div> {% endif %}
+        {% if {{experience.role_brief}} %} <em>{{experience.role_brief | strip | markdownify}}</em> {% endif %}
+        {% if {{experience.description}} %} {{experience.description | strip | markdownify}} {% endif %}
+      </div>
+
+      {% if {{experience.dates}} %}
+        <div class="resume-date text-md-right">
+          <span class="text-primary">{{experience.dates}}</span>
+        </div>
+      {% endif %}
+
+    </div>
+
+{% endfor %}

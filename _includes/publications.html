@@ -1,0 +1,19 @@
+{% for publication in site.data.publications %}
+
+    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="resume-content">
+        {% if {{publication.outlet_link}} %} <a href="{{publication.outlet_link}}"> {% endif %}
+        {% if {{publication.outlet}} %} <h3 class="mb-0">{{publication.outlet}}</h3> {% endif %}
+        {% if {{publication.outlet_link}} %} </a> {% endif %}
+
+        {% if {{publication.publication_link}} %} <a href="{{publication.publication_link}}"> {% endif %}
+        {% if {{publication.publication_title}} %} <div class="subheading mb-0">{{publication.publication_title}}</div> {% endif %}
+        {% if {{publication.publication_link}} %} </a> {% endif %}
+
+        {% if {{publication.publication_date}} %} Published on {{publication.publication_date}} {% endif %}
+        {% if {{publication.description}} %} {{publication.description | strip | markdownify}} {% endif %}
+      </div>
+
+    </div>
+
+{% endfor %}

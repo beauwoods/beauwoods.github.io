@@ -5,6 +5,9 @@
 
 <body id="page-top">
 
+  {%- if jekyll.environment == 'production' and site.gtm -%}
+    {%- include gtm_body.html -%}
+  {%- endif -%}
   {%- include nav.html -%}
 
   <div class="container-fluid p-0">

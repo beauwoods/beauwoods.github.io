@@ -8,5 +8,5 @@
 - title: Projects
   file: projects.html
 
-- title: Publications
-  file: publications.html
+#- title: Publications
+#  file: publications.html

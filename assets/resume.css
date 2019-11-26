@@ -138,7 +138,7 @@ p.lead {
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-  max-width: 50rem;
+  max-width: 70rem;
 }
 
 section.resume-section .resume-item .resume-date {
@@ -151,6 +151,10 @@ section.resume-section .resume-item .resume-date {
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
+}
+
+.resume-date {
+  color: #81b1ce;
 }
 
 @media (min-width: 992px) {

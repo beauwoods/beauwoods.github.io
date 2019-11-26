@@ -12,21 +12,7 @@
 
   <div class="container-fluid p-0">
 
-    <!-- About section -->
-    {% assign person = site.data.about[0] %}
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center vh-100" id="About">
-    <div class="w-100">
-      <h1 class="mb-0">{{person.firstname}}
-        <span class="text-primary">{{person.lastname}}</span>
-      </h1>
-
-      <p class="lead mb-5">{{person.description | strip | markdownify}}</p>
-
-      {%- include socialnetworks.html -%}
-
-    </div>
-    </section>
-    <!-- About section -->
+  {%- include about.html -%}
 
     <!-- Other sections -->
     {% for section in site.data.sitelist %}

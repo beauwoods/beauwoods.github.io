@@ -1,66 +1,38 @@
-# Site
-repository: beauwoods/beauwoods.github.io
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
-
-# Personal info
-name: Beau Woods
+---
 title: Cyber Policy Ambassador/Translator
-# email: Your email (optional)
-# phone: Your phone number (optional)
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+repository: beauwoods/beauwoods.github.io
+name: Beau Woods
 website: beauwoods.com
-
-# Select your active Social Network Links.
-# Uncomment the links you want to show in the footer and add your information to each link.
-# You can reorder the items to define the link order.
-# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-#  rss: true
-#  email: "someone@example.com"
-#  facebook: jekyll
- github: beauwoods
- twitter: beauwoods
- reddit: beauwoods
- linkedin: beauwoods
-#  xing: jekyll
-#  stackoverflow: "1234567/jekyll"
-#  snapchat: jekyll
-#  instagram: jekyll
-#  youtube: user/jekyll
-#  spotify: jekyll
-#  telephone: +12025551212
-#  steam: jekyll
-#  twitch: jekyll
-#  yelp: jekyll
- orcid: 0000-0001-6109-1434
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-gtm: "GTM-56D6KN8"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# Footer
+  github: beauwoods
+  twitter: beauwoods
+  reddit: beauwoods
+  linkedin: beauwoods
+  orcid: 0000-0001-6109-1434
+gtm: GTM-56D6KN8
 footer_show_references: true
-
-# Build settings
 remote_theme: beauwoods/modern-resume-theme
-
 sass:
   sass_dir: _sass
   style: compressed
-
 plugins:
- - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+- jekyll-seo-tag
+exclude:
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+- lib/
+- scripts/
+- docker-compose.yml

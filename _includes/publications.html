@@ -1,6 +1,6 @@
 {% for publication in site.data.publications %}
 
-    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
       <div class="resume-content">
         {% if {{publication.outlet_link}} %} <a href="{{publication.outlet_link}}"> {% endif %}
         {% if {{publication.outlet}} %} <h3 class="mb-0">{{publication.outlet}}</h3> {% endif %}

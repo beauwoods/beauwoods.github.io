@@ -12,11 +12,10 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav">
-
       <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href="#About">About</a>
       </li>
-
+      
       {% for section in site.data.sitelist %}
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#{{section.title}}">{{section.title}}</a>

@@ -5,7 +5,7 @@
 #   baseURL: Define a base URL which will be combined with the value of
 #            site.social-network-links.<key>
 #   icon: Specify a valid fontawesome icon class
-# 
+#
 # Icons come from Fonts Awesome library
 
 facebook:
@@ -95,5 +95,5 @@ yelp:
 
 orcid:
   name: "ORCiD"
-  baseURL: "https://orcid.com/"
+  baseURL: "https://orcid.org/"
   icon: "fa-orcid"

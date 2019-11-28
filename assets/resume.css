@@ -58,14 +58,10 @@ p.lead {
 
 .social-icons a {
   display: inline-block;
-  height: 3.5rem;
-  width: 3.5rem;
-  background-color: #495057;
-  color: #fff !important;
-  border-radius: 100%;
+  color: #495057 !important;
   text-align: center;
-  font-size: 1.5rem;
-  line-height: 3.5rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
   margin-right: 1rem;
 }
 
@@ -75,6 +71,22 @@ p.lead {
 
 .social-icons a:hover {
   background-color: #004085;
+}
+
+.social-sm-icons a {
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.social-sm-icons a:last-child {
+  margin-right: 0;
 }
 
 .dev-icons {

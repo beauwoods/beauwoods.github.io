@@ -2,8 +2,11 @@
 - title: Experience
   file: experience.html
 
+- title: Education
+  file: education.html
+
 - title: Projects
   file: projects.html
 
-- title: Publications
-  file: publications.html
+#- title: Publications
+#  file: publications.html

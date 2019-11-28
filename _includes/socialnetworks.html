@@ -1,6 +1,4 @@
-<div class="social-icons">
-
-  {%- for link in site.social-network-links -%}
+{%- for link in site.social-network-links -%}
     {%- assign curkey = link[0] -%}
     {%- assign element = site.data.socialnetworks[curkey] -%}
 
@@ -16,5 +14,3 @@
         </a>
     </span>
   {%- endfor -%}
-
-</div>

@@ -1,6 +1,6 @@
 # Site
 repository: beauwoods/beauwoods.github.io
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: assets/favicon.ico
 
 # Personal info
 name: Beau Woods
@@ -41,6 +41,9 @@ gtm: "GTM-NGZLP63"
 
 plugins:
  - jekyll-seo-tag
+
+# Build settings
+remote_theme: beauwoods/modern-resume-theme
 
 exclude : [
   "Gemfile",

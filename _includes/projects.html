@@ -2,11 +2,11 @@
 
 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
   <div class="resume-content">
-        {% if {{projects.link}} %} <a href="{{projects.link}}"> {% endif %}
-        {% if {{projects.name}} %} <h3 class="mb-0">{{projects.name}}</h3> {% endif %}
-        {% if {{projects.link}} %} </a> {% endif %}
-        {% if {{projects.description}} %} {{projects.description | strip | markdownify}} {% endif %}
-      </div>
-    </div>
+    {% if {{projects.link}} %} <a href="{{projects.link}}"> {% endif %}
+      {% if {{projects.name}} %} <h3 class="mb-0">{{projects.name}}</h3> {% endif %}
+      {% if {{projects.link}} %} </a> {% endif %}
+    {% if {{projects.description}} %} {{projects.description | strip | markdownify}} {% endif %}
+  </div>
+</div>
 
 {% endfor %}

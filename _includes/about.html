@@ -1,13 +1,19 @@
 {% assign person = site.data.about[0] %}
 
 <section class="resume-section p-3 p-lg-5 d-flex align-items-center vh-100" id="About">
-<div class="w-100 flex-column">
-  <span class="p-4"><img class="img-fluid img-profile rounded-circle mx-auto mb-2 d-block d-lg-none d-xl-none" height="150" width="150" src="{{person.profile_image}}" alt="{{person.firstname}} {{person.lastname}}"></span>
-  <h1 class="m-0 d-none d-lg-block d-xl-block">{{person.firstname}}<span class="text-primary"> {{person.lastname}}</span></h1>
-  <h1 class="m-0 d-block d-lg-none d-xl-none"><center>{{person.firstname}}<span class="text-primary"> {{person.lastname}}</span></center></h1>
-  <span class="p-lg-5"><p>{{person.description | strip | markdownify}}</p></span>
+  <div class="w-100 flex-column">
+    <span class="p-4"><img class="img-fluid img-profile rounded-circle mx-auto mb-2 d-block d-lg-none d-xl-none" height="150" width="150" src="{{person.profile_image}}" alt="{{person.firstname}} {{person.lastname}}"></span>
+    <h1 class="m-0 d-none d-lg-block d-xl-block">{{person.firstname}}<span class="text-primary"> {{person.lastname}}</span></h1>
+    <h1 class="m-0 d-block d-lg-none d-xl-none">
+      <center>{{person.firstname}}<span class="text-primary"> {{person.lastname}}</span></center>
+    </h1>
+    <span class="p-lg-5">
+      <p>{{person.description | strip | markdownify}}</p>
+    </span>
 
-  <span class="social-icons navbar-expand d-block d-lg-none d-xl-none mt-5"><center>{%- include socialnetworks.html -%}</center></span>
+    <span class="social-icons navbar-expand d-block d-lg-none d-xl-none mt-5">
+      <center>{%- include socialnetworks.html -%}</center>
+    </span>
 
-</div>
+  </div>
 </section>

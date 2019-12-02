@@ -1,21 +1,21 @@
 {% for education in site.data.education %}
 
-  <div class="resume-item d-flex flex-row">
+<div class="resume-item d-flex flex-row">
 
-    <div class="flex-grow-1 w-100">
-      {% if {{education.link}} %} <a href="{{education.link}}"> {% endif %}
+  <div class="flex-grow-1 w-100">
+    {% if {{education.link}} %} <a href="{{education.link}}"> {% endif %}
       {% if {{education.organization}} %} <h3 class="mb-0">{{education.organization}}</h3> {% endif %}
       {% if {{education.link}} %} </a> {% endif %}
-      {% if {{education.qualification}} %} <div class="subheading mb-0">{{education.qualification}}</div> {% endif %}
-    </div>
-
-    <div class="resume-date text-primary flex-shrink-1 text-right p-0">{{education.dates}}</div>
-
+    {% if {{education.qualification}} %} <div class="subheading mb-0">{{education.qualification}}</div> {% endif %}
   </div>
 
-  <div class="resume-item d-flex flex-row flex-column justify-content-between mb-3">
-    {% if {{education.gpa}} %} <p>{{education.gpa}}</p> {% endif %}
-    {% if {{education.description}} %} <p>{{education.description | strip | markdownify}}</p> {% endif %}
-  </div>
+  <div class="resume-date text-primary flex-shrink-1 text-right p-0">{{education.dates}}</div>
+
+</div>
+
+<div class="resume-item d-flex flex-row flex-column justify-content-between mb-3">
+  {% if {{education.gpa}} %} <p>{{education.gpa}}</p> {% endif %}
+  {% if {{education.description}} %} <p>{{education.description | strip | markdownify}}</p> {% endif %}
+</div>
 
 {% endfor %}

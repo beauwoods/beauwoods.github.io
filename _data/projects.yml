@@ -1,36 +1,36 @@
-- name: Lost Policymaker Guide
-  link: https://lostpolicymaker.org
-#  github: sproogen/resume-theme
-#  quote: >
+- name:        Lost Policymaker Guide
+  link:        https://lostpolicymaker.org
+#  github:     sproogen/resume-theme
+#  quote:      >
 #    Quote goes here.
   description: | # this will include new lines to allow paragraphs
     A tongue-in-cheek travel guide for those new the Hacker community and our conferences. The Lost Policymaker Guides help those in the policy field more quickly gain their footing at hacker conferences, and understand hacker ethos and culture.
 
-- name: We Heart Hackers
-  link: https://wehearthackers.org
-#  github: sproogen/resume-theme
-#  quote: >
+- name:        We Heart Hackers
+  link:        https://wehearthackers.org
+#  github:     sproogen/resume-theme
+#  quote:      >
 #    A joint initiative by the <a href="https://villageb.io">Biohacking Village</a> and the <a href="https://fda.gov">US Food and Drug Administration</a>.
   description: | # this will include new lines to allow paragraphs
     A joint initiative by the [Biohacking Village](https://villageb.io) and the [US Food and Drug Administration](https://fda.gov). Dr. Suzanne Schwartz from the FDA announced the joint initiative in January, 2019, encouraging medical device makers to engage  security researchers at the Biohacking Village at DEF CON and bring medical devices for the community to test for potential security issues.
 
-- name: White Hats and Lab Coats
-  link: https://whitehatslabcoats.org
-#  quote: >
+- name:        White Hats and Lab Coats
+  link:        https://whitehatslabcoats.org
+#  quote:      >
 #    The Biohacking Village podcast: At the forefront of Biohacking and Biomedical security
   description: | # this will include new lines to allow paragraphs
     The Biohacking Village podcast: At the forefront of Biohacking and Biomedical security. Each episode explores DIYBio, Citizen Science, and Medical Device Security with guests from the healthcare, cyber security research, and biohacking communities. Hosted by Nina Alli and Beau Woods.
 
-- name: DC to DEF CON
-  link: https://twitter.com/search?f=tweets&vertical=default&q=dc2defcon&src=typd
-#  quote: >
+- name:        DC to DEF CON
+  link:        https://twitter.com/search?f=tweets&vertical=default&q=dc2defcon&src=typd
+#  quote:      >
 #    The Biohacking Village podcast: At the forefront of Biohacking and Biomedical security
   description: | # this will include new lines to allow paragraphs
     DC to DEF CON brings members of Congress to [DEF CON](https://defcon.org), the world's biggest hacking conference, to immerse them in the security research community and inform them on the technical dependencies underlying some of the biggest policy issues they face.
 
-- name: Hackers on the Hill
-  link: https://twitter.com/search?f=tweets&vertical=default&q=hackersonthehill&src=typd
-#  quote: >
+- name:        Hackers on the Hill
+  link:        https://twitter.com/search?f=tweets&vertical=default&q=hackersonthehill&src=typd
+#  quote:      >
 #    The Biohacking Village podcast: At the forefront of Biohacking and Biomedical security
   description: | # this will include new lines to allow paragraphs
     Hackers on the Hill is a semi-regular US Capitol tour for irregulars from the security research community, interested in public policy, guided by congressional staffers who grok tech. These tours often precede events like [BSidesDC](https://bsidesdc.org) and [Shmoocon](https://shmoocon.org).

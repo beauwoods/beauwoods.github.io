@@ -1,7 +1,7 @@
-- outlet: Secureworks Blog
-  outlet_link: https://secureworks.com
-  publication_date: August 10, 2007
+- outlet:            Secureworks Blog
+  outlet_link:       https://secureworks.com
+  publication_date:  August 10, 2007
   publication_title: What is Considered ‘Unauthorized Access' to Information?
-  publication_link: https://www.secureworks.com/blog/general-22814
-  description: | # this will include new lines to allow paragraphs
+  publication_link:  https://www.secureworks.com/blog/general-22814
+  description:       | # this will include new lines to allow paragraphs
     In Healthcare Advocates Inc. v. Harding Earley Follmer & Frailey, the court ruled that it is not considered unauthorized (and therefore illegal) access if the information in question was gathered from publicly archived or cached data.

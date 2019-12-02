@@ -12,7 +12,7 @@ website: beauwoods.com
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
-# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
+# If you want to add a new link that isn't here, you'll need to also edit the file _data/socialnetworks.yml
 social-network-links:
 #  rss: true
 #  email: "someone@example.com"
@@ -38,16 +38,6 @@ social-network-links:
 gtm: "GTM-NGZLP63"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
-
-# Footer
-footer_show_references: true
-
-# Build settings
-remote_theme: beauwoods/modern-resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
 
 plugins:
  - jekyll-seo-tag

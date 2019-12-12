@@ -35,9 +35,9 @@ social-network-links:
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-gtm: "GTM-NGZLP63"
+# gtm: "GTM-NGZLP63"
 # gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+google_analytics: "UA-2192192-4"
 
 plugins:
  - jekyll-seo-tag

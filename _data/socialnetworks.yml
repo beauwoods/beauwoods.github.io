@@ -97,3 +97,8 @@ orcid:
   name:         "ORCiD"
   baseURL:      "https://orcid.org/"
   icon:         "fa-orcid"
+
+keybase:
+  name:         "Keybase.io"
+  baseURL:      "https://keybase.io/"
+  icon:         "fa-keybase"

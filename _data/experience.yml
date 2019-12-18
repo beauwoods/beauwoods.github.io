@@ -62,11 +62,19 @@
   description: | # this will include new lines to allow paragraphs
     Elektra is a healthcare security company focused on safe, effective, personalized adoption of medicine. They work with pharma and device companies to reduce cost and time to market during clinical trials, and work with care providers to make remote monitoring easier and better.
 
+- organization: ENISA eHealth Expert Group
+  link:        https://resilience.enisa.europa.eu/ehealth-security
+  job_title:   eHealth Expert
+  dates:       February 2016 - December 2019
+  role_brief:  Contribute knowledge and experience from the security researcher community.
+  description: | # this will include new lines to allow paragraphs
+    The eHealth Security Experts Group brings together technical experts on healthcare information systems, cyber security and contingency, with representatives from service providers, healthcare organisations, healthcare authorities, academia and standardisation bodies. This group provides ENISA with the opportunity to listen to experiences, good practices and ideas.  The group constitutes an exchange platform for the participants to address important issues relating to the security and resilience of the eHealth systems and infrastructures.
+
 - organization: US Food and Drug Administration
   link:        https://fda.gov
   job_title:   Entrepreneur in Residence
   dates:       February 2018 - January 2019
-  role_brief:  Served a one-year term, working on the [Precertification Program](https://www.fda.gov/medical-devices/digital-health/digital-health-software-precertification-pre-cert-program).
+  role_brief:  Serve a one-year term, working on the [Precertification Program](https://www.fda.gov/medical-devices/digital-health/digital-health-software-precertification-pre-cert-program).
   description: | # this will include new lines to allow paragraphs
     The Food and Drug Administration is responsible for protecting the public health by ensuring the safety, efficacy, and security of human and veterinary drugs, biological products, and medical devices; and by ensuring the safety of our nation's food supply, cosmetics, and products that emit radiation. FDA is responsible for advancing the public health by helping to speed innovations that make medical products more effective, safer, and more affordable and by helping the public get the accurate, science-based information they need to use medical products and foods to maintain and improve their health.
 

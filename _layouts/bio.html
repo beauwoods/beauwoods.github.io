@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{%- include head.html -%}
+
+<style>
+  textarea {
+    width: 100%;
+    height: 250px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    resize: none;
+  }
+</style>
+
+<body id="page-top">
+
+  {%- if jekyll.environment == 'production' and site.gtm -%}
+  {%- include gtm_body.html -%}
+  {%- endif -%}
+
+  <!-- Bio section -->
+  <div class="col-xl-10 col-md-12 m-2 p-2" style="border: 2px solid #f7f7f9">
+    <h3>Common Bios</h3>
+    <p>Select the bio below that fits best, or contact me.</p>
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        {% for bio in site.data.bio %}
+        <a class="nav-item nav-link {% if forloop.first == true %}active{% endif %}" id="{{bio.bio_name}}-tab" data-toggle="tab" href="#{{bio.bio_name}}" role="tab" aria-controls="{{bio.bio_name}}" aria-selected="true">{{bio.bio_title}}</a>
+        {% endfor %}
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      {% for bio in site.data.bio %}
+      <div class="tab-pane fade {% if forloop.first == true %}active show{% endif %} p-2" id="{{bio.bio_name}}" role="tabpanel" aria-labelledby="{{bio.bio_name}}-tab">
+        <div style="background: white">{{bio.bio_text | strip | markdownify}}</div>
+        <div class="mt-2 mb-2">
+          <button class="btn btn-primary" data-clipboard-action="copy" data-clipboard-text="{{bio.bio_text}}">Copy</button>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Photos section -->
+  <div class="col-xl-10 col-md-12 m-2 p-2" style="border: 2px solid #f7f7f9">
+    <h3>Photos</h3>
+    <p>Select the photo below that fits best, or contact me. Click to download a larger version.</p>
+    <div class="row">
+      {% for photo in site.data.photos %}
+      <div class="col-md-3 col-sm-12 m-3">
+        <a href="{{photo.path}}" download="{{photo.name}}.jpg"><img src="{{photo.thumb_path}}" class="img-fluid rounded d-block"></a>
+        <p>{{photo.title}}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  {%- include footer.html -%}
+
+  <!-- Copy text: clipboardjs -->
+  <!-- From https://clipboardjs.com/ -->
+  <script src="vendor/clipboardjs/js/clipboard.js"></script>
+  <script>
+    var clipboard = new ClipboardJS('.btn');
+    clipboard.on('success', function(e) {
+      console.log(e);
+    });
+    clipboard.on('error', function(e) {
+      console.log(e);
+    });
+  </script>
+
+</body>
+
+</html>

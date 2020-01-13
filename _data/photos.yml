@@ -1,0 +1,14 @@
+- name:  preferred # must not have spaces
+  title: Preferred
+  path:  assets/profile.jpg
+  thumb_path: assets/profile_thumb.jpg
+
+- name:  professional # must not have spaces
+  title: Professional
+  path:  assets/professional.jpg
+  thumb_path: assets/professional_thumb.jpg
+
+- name:  hacker # must not have spaces
+  title: Hacker
+  path: assets/hacker.jpg
+  thumb_path: assets/hacker_thumb.jpg

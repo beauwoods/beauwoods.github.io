@@ -1,3 +1,12 @@
+
+- organization: Cybersecurity and infrastructure Security Agency
+  link:        https://cisa.gov
+  job_title:   Senior Advisor
+  dates:       November 2020 - Present
+  role_brief:  Develop relationships between CISA, industry, and the hacker community to protect the COVID response supply chain and other critical infrastructure.
+  description: | # this will include new lines to allow paragraphs
+    The the Nation’s risk advisor, working with partners to defend against today’s threats and collaborating to build more secure and resilient infrastructure for the future. CISA is at the heart of mobilizing a collective defense as we lead the Nation’s efforts to understand and manage risk to our critical infrastructure.
+
 - organization: Stratigos Security
   link:        https://stratigossecurity.com
   job_title:   Founder/CEO
@@ -6,7 +15,7 @@
   description: | # this will include new lines to allow paragraphs
     Stratigos Security was founded to promote strategic and holistic approaches to security for our clients. This means taking a broad view across the organization, and in the long view, to see how and where security fits into their broader context. That is different than how many information security programs are run – compartmentalized internally and isolated from the organization's value drivers. Our clients range from Fortune 100 to small local organizations, and span the globe.
 
-- organization: I Am The Cavalry
+  - organization: I Am The Cavalry
   link:        https://iamthecavalry.org
   job_title:   Cyber Safety Ambassador
   dates:       August 2013 - Present

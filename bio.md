@@ -6,4 +6,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: bio
+name: Bio: Beau Woods
+title: Cyber Policy Ambassador/Translator
 ---

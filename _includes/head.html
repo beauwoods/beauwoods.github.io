@@ -5,11 +5,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  {%- if page.title and page.name -%}
-    <title>{{ page.name }} | {{ page.title }}</title>
-  <%- else -%}
-    <title>{{ site.name }} | {{ site.title }}</title>
-  {%- endif -%}
+  <title>{{ site.name }} | {{ site.title }}</title>
   {%- seo title=true -%}
 
   {%- if site.favicon -%}

@@ -6,7 +6,7 @@
 - bio_name:  charactercount # must not have spaces
   bio_title: 250 characters
   bio_text:  | # this will include new lines to allow paragraphs
-    Beau Woods has over a decade in IT and Security, and has advised dozens of organizations on security practice, strategy and technology, from Global 100 to small businesses and NGOs. Beau is a frequent presenter, media contributor, and author.
+    Beau Woods has over 25 years in IT, information security, and cyber policy, and advises organizations on security practice, strategy and technology, from Global 100 to small businesses and NGOs. Beau is a frequent presenter, media voice, and author.
 
 - bio_name:  wordcount # must not have spaces
   bio_title: 250 words
